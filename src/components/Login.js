@@ -44,8 +44,9 @@ const Login = () => {
       className='bg-white border shadow-sm m-auto rounded-md text-sm active:outline-none py-2 px-1 w-9/12'
       placeholder='Password' />
 
-    <Link href="https://www.instagram.com/accounts/login/" className='py-4 bg-white'>
+    <Link className='py-4 bg-white'>
       <button 
+        type="submit"
     className='text-white font-bold p-2 bg-[#72b6fa] hover:bg-[#274ef8] rounded-md justify-content-center w-9/12' 
       >Log in</button>
     </Link>
