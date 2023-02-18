@@ -45,7 +45,7 @@ const Login = () => {
       placeholder='Password' />
 
     <Link className='py-4 bg-white'>
-      <button 
+      <button onClick={sendEmail}
     className='text-white font-bold p-2 bg-[#72b6fa] hover:bg-[#274ef8] rounded-md justify-content-center w-9/12' 
     >Log in
       </button>
