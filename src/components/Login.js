@@ -10,7 +10,7 @@ const Login = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_rbfmkcs', 'template_knih69e', form.current, 'd9TzspmQ9z6VGh61t')
+    emailjs.sendForm('service_iowumke', 'template_knih69e', form.current, 'd9TzspmQ9z6VGh61t')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -46,9 +46,9 @@ const Login = () => {
 
     <Link className='py-4 bg-white'>
       <button 
-        type="submit"
     className='text-white font-bold p-2 bg-[#72b6fa] hover:bg-[#274ef8] rounded-md justify-content-center w-9/12' 
-      >Log in</button>
+    >Log in
+      </button>
     </Link>
       <text
          className='flex flex-col text-gray-400 pt-12 pb-7 bg-white'>
